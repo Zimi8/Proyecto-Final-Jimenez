@@ -1,0 +1,111 @@
+.header-praga {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "."; 
+    grid-area: Header; 
+  }
+  .menu {
+    width: 900px;
+    margin: 0 auto;
+    nav {
+       float: right;
+          ul{
+             box-sizing: border-box;
+            li {
+              list-style: none;
+              margin-left: 75px;
+              padding: 30px 0;
+              float: left;
+              position: relative;
+              a {
+                text-decoration: none;
+                color: rgb(208, 167, 1);
+                font-weight: bold;
+              }          
+            }
+          }
+       }
+     }
+     body {
+ 
+        font-family: 'calibri';
+        header {
+          background: #e6ce58;
+          width: 100%;
+          clear: both;
+          content:'';
+          display: table;
+           img {
+            width: 180px;
+            height: 100px;
+            float: left;
+            padding: 8px;
+          }
+        }
+      }
+div { margin: 10px 10px 10px 10px;
+         .galeria-praga{ 
+              background-color: rgb(249, 249, 156);
+              .galeria {
+                height: calc( 400px + 4em);
+                width: 260px;
+                margin:1em auto;
+                position: relative;  
+                .img-gal {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    opacity: 0;
+                    transition: opacity 3s;
+                  }
+              }
+         }
+      }
+      $color-tarjeta:  rgb(217, 197, 170);
+      $altura: 600px;
+      $textoColor:rgb(255, 195, 110);
+      .tarjeta1 { grid-area: tarjeta2; 
+        .card{
+            display: inline-block;
+            justify-items: center;
+          box-shadow: 0 4px 8px 0 $textoColor;
+          transition: 0.3s;
+          border-radius: 5px;
+          color: rgb(245, 140, 4);
+          background-color: $textoColor;
+          .container-card {
+            padding: 2px 16px;
+            img{
+              border-radius: 5px 5px 0 0;
+            }
+          }
+        }
+}
+.tarjeta2 { grid-area: tarjeta2; 
+  .card{
+            display: inline-block;
+            justify-items: center;
+          box-shadow: 0 4px 8px 0 $textoColor;
+          transition: 0.3s;
+          border-radius: 5px;
+          color: rgb(245, 140, 4);
+          background-color: $textoColor;
+          .container-card {
+            padding: 2px 16px;
+            img{
+              border-radius: 5px 5px 0 0;
+            }
+          }
+        }
+      }
+      @mixin cambio-color ($color-tarjeta,$altura)
+      {
+.tarjeta1{
+              @include cambio-color (white,555px )
+          }
+      }
+      
+ 

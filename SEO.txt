@@ -1,0 +1,6 @@
+Se agregaron las etiquetas metas y un site map en el index principal y las secciones.
+Como está maquetado con Bootstrap agregué una sección en html y css porque me estaba costando mucho integrar una anidación con el framework. (Expo Praga)
+
+Se agregaron las KEYWORDS en cada sección personalizadas.
+Se intentó agregar en las Img los ALT correspondientes.
+Se agrego un Sitemap.

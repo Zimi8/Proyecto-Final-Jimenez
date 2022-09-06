@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-annah",
+  "version": "1.0.0",
+  "description": "Proyecto de Annah Deco con BS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zimi8/AnnahConBS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zimi8/AnnahConBS/issues"
+  },
+  "homepage": "https://github.com/Zimi8/AnnahConBS#readme",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}

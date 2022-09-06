@@ -1,0 +1,32 @@
+.b-example-divider {
+
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    background-color:#ffe97d;
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+  #footer-color{
+      background-color: #ffe97d;
+  }
+
+  .navbar  navbar-light bg-light {
+    background-color: #ffe97d;
+}
+
+.navbar-expand-lg{
+    background-color: #ffe97d;
+}
+.nav-link {
+    font: black;
+    text-decoration-color: #333;
+}
+#footer_color{
+    background-color: #ffe97d!important;
+}
