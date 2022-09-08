@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,6 +15,7 @@
     <link rel="icon" href="/assets/logos y favicon/favicon.ico">
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
     <script  src="/Javascript/carrito_annah.js" defer ></script>
+    
     <title>Productos de marca de Annah Strodel</title>
 </head>
 <body class="body-productos">
@@ -45,7 +47,7 @@
                 <!--El Button de abajo, es un modal de BS que mesclé con la funcion del boton para ver el carrito.--> 
                 <button type="button" class="btn btn-outline-success" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="generarCardsCarrito()">
                   <i class="bi-cart-fill me-1"></i>
-                  Cart 
+                  Carrito de Compras
                   <span id="cart-total" class="badge bg-dark text-white ms-1 rounded-pill">0</span>
                   <span class="material-symbols-outlined">
                     add_shopping_cart
@@ -66,12 +68,16 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                    <li class="nav-item"> <a class="nav-link active filtrar-categoria" aria-current="page" data-categoria ="comedor" >Comedor</a></li>
-                <li class="nav-item"> <a class="nav-link active filtrar-categoria" aria-current="page" data-categoria ="living" >Living</a>
+                    <li class="nav-item"> 
+                      <a class="nav-link active filtrar-categoria" aria-current="page" data-categoria ="comedor" >Comedor</a></li>
+                <li class="nav-item"> 
+                  <a class="nav-link active filtrar-categoria" aria-current="page" data-categoria ="living" >Living</a>
                 </li>
-                    <li class="nav-item"> <a class="nav-link active filtrar-categoria" aria-current="page" data-categoria ="comercio" >Comercio</a>
+                    <li class="nav-item"> 
+                      <a class="nav-link active filtrar-categoria" aria-current="page" data-categoria ="comercio" >Comercio</a>
                     </li>
-                    <li class="nav-item"> <a class="nav-link active filtrar-categoria" aria-current="page" data-categoria ="habitacion" >Habitación</a>
+                    <li class="nav-item"> 
+                      <a class="nav-link active filtrar-categoria" aria-current="page" data-categoria ="habitacion" >Habitación</a>
                     </li>
                    
                 </ul>
@@ -90,11 +96,12 @@
        
 </div>
 <!--   FIN DE LAS CARDS   -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="generarCardsCarrito()">
-  Ver carrito Modal Example 
-</button> 
+ 
 
   <!-- Modal -->
+<div>
+  <img src="" alt="">
+</div>
 
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -114,11 +121,23 @@
       </div>
     </div>
   </div>
+  <div class="container d-flex justify-content-center mt-50 mb-50">
+  <figure class="text-end">
+    <blockquote class="blockquote">
+      <h1>Si no te haz decidido, inspírate en lindas imagenes para elegir el Set adecuado a tu hogar, porque este set te llevará ese lugar sagrado al corazón de tu hogar</h1>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+    Annah Shcrodel <cite title="Source Title"> Annah, feria de París, vienna parisiana.</cite>
+    </figcaption>
+  </figure>
+</div>
 
-  <div class="container d-flex justify-content-center mt-50 mb-50" id="seccionAPI">
+  <div class="container d-flex justify-content-center mt-50 mb-50" id="seccionCarusel">
+    <!--  JSON carusel :(   -->
+    <div id="seccion-pixa"><img src="" alt=""  >
 
-    <!--  API TWEETS -->
-  </div>
+    </div>
+  </div><!-- fin seccioncarusel -->
 
 <div id="footer-estilo">
     <div class="b-example-divider"></div>
